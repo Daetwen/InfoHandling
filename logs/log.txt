@@ -1,0 +1,384 @@
+21-07-16 16:51.292 [main] ERROR edy.epam.task5.reader.TextReader - Error reading from file: java.nio.charset.MalformedInputException: Input length = 1
+21-07-16 16:51.297 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Error reading from file: java.nio.charset.MalformedInputException: Input length = 1
+	at edy.epam.task5.reader.TextReader.readText(TextReader.java:21) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:16) [classes/:?]
+21-07-16 16:55.910 [main] ERROR edy.epam.task5.reader.TextReader - Error reading from file: java.nio.charset.MalformedInputException: Input length = 1
+21-07-16 16:55.915 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Error reading from file: java.nio.charset.MalformedInputException: Input length = 1
+	at edy.epam.task5.reader.TextReader.readText(TextReader.java:21) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:16) [classes/:?]
+21-07-17 18:25.082 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data is not correct...
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:15) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:21) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:24) [classes/:?]
+21-07-17 18:27.864 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data is not correct...
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:15) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:20) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:24) [classes/:?]
+21-07-17 18:27.019 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data is not correct...
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:15) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:20) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:24) [classes/:?]
+21-07-17 18:29.251 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sentence parser is not correct.
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:15) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:20) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:24) [classes/:?]
+21-07-17 18:50.712 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sentence parser is not correct.
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:15) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:29) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:26) [classes/:?]
+21-07-18 12:47.212 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in lexeme parser is not correct.
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:38) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:40) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:65) [classes/:?]
+21-07-18 12:48.380 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in lexeme parser is not correct.
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:38) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:41) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:65) [classes/:?]
+21-07-18 12:49.583 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in lexeme parser is not correct.
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:38) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:45) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:65) [classes/:?]
+21-07-18 12:49.121 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in lexeme parser is not correct.
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:38) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:46) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:65) [classes/:?]
+21-07-18 12:57.450 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in lexeme parser is not correct.
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:38) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:43) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:41) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:70) [classes/:?]
+21-07-18 13:00.195 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in lexeme parser is not correct.
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:38) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:43) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:70) [classes/:?]
+21-07-18 13:18.444 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in lexeme parser is not correct.
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:38) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:44) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:70) [classes/:?]
+21-07-18 13:18.958 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in lexeme parser is not correct.
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:38) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:45) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:70) [classes/:?]
+21-07-18 13:19.843 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in lexeme parser is not correct.
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:38) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:48) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:70) [classes/:?]
+21-07-18 13:20.852 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in lexeme parser is not correct.
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:38) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:50) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:70) [classes/:?]
+21-07-18 13:20.022 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in lexeme parser is not correct.
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:38) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:51) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:70) [classes/:?]
+21-07-18 13:21.064 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in lexeme parser is not correct.
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:38) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:49) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:70) [classes/:?]
+21-07-18 13:21.297 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in lexeme parser is not correct.
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:38) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:51) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:70) [classes/:?]
+21-07-18 13:21.998 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in lexeme parser is not correct.
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:38) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:52) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:70) [classes/:?]
+21-07-18 13:22.886 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in lexeme parser is not correct.
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:38) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:52) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:44) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:70) [classes/:?]
+21-07-18 13:24.960 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in lexeme parser is not correct.
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:38) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:49) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:44) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:70) [classes/:?]
+21-07-18 13:24.234 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in lexeme parser is not correct.
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:38) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:50) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:44) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:70) [classes/:?]
+21-07-18 13:25.606 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in lexeme parser is not correct.
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:38) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:48) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:44) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:70) [classes/:?]
+21-07-18 13:31.584 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sentence parser is not correct.
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:41) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:70) [classes/:?]
+21-07-18 13:37.709 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in lexeme parser is not correct.
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:39) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:57) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:70) [classes/:?]
+21-07-18 13:38.051 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in lexeme parser is not correct.
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:39) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:57) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:70) [classes/:?]
+21-07-18 15:50.314 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct.
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:46) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:51) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:82) [classes/:?]
+21-07-18 15:50.507 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct. 
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:46) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:51) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:82) [classes/:?]
+21-07-18 15:51.144 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct. 
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:47) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:51) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:82) [classes/:?]
+21-07-18 15:56.394 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct. 
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:47) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:51) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:83) [classes/:?]
+21-07-18 16:03.334 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct. 
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:47) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:52) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:83) [classes/:?]
+21-07-18 16:03.367 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct. 
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:47) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:52) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:83) [classes/:?]
+21-07-18 16:04.347 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct. 
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:47) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:53) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:83) [classes/:?]
+21-07-18 16:05.803 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct. 
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:47) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:53) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:83) [classes/:?]
+21-07-18 16:05.313 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct. 
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:47) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:53) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:83) [classes/:?]
+21-07-18 16:06.439 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct. 
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:47) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:53) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:83) [classes/:?]
+21-07-18 16:12.766 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct. 
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:47) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:61) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:83) [classes/:?]
+21-07-18 16:16.667 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct. 
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:47) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:61) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:83) [classes/:?]
+21-07-18 16:17.011 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct. 
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:47) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:62) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:83) [classes/:?]
+21-07-18 16:18.923 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct. 
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:47) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:62) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:83) [classes/:?]
+21-07-18 16:18.682 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct. 
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:47) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:62) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:83) [classes/:?]
+21-07-18 16:33.075 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct. 
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:47) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:54) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:83) [classes/:?]
+21-07-18 16:39.613 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct. 
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:47) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:54) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:84) [classes/:?]
+21-07-18 16:41.273 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct. 
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:47) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:54) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:84) [classes/:?]
+21-07-18 16:42.578 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct. 
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:47) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:54) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:84) [classes/:?]
+21-07-18 16:43.848 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct. 
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:47) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:54) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:84) [classes/:?]
+21-07-18 16:45.847 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct. 
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:47) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:54) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:84) [classes/:?]
+21-07-18 16:47.964 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct. 
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:47) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:54) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:84) [classes/:?]
+21-07-18 17:02.168 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sybol parser is not correct. 
+	at edy.epam.task5.parser.SymbolParser.parse(SymbolParser.java:31) ~[classes/:?]
+	at edy.epam.task5.parser.LexemeParser.parse(LexemeParser.java:47) ~[classes/:?]
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:54) ~[classes/:?]
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:43) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:84) [classes/:?]
+21-07-19 21:03.526 [main] ERROR edy.epam.task5.entity.Symbol - Error in method getChildren of Symbol.
+21-07-19 21:20.610 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sentence parser is not correct.
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:24) ~[classes/:?]
+	at edy.epam.task5.service.impl.TextServiceImpl.DeleteSentenceByWordSize(TextServiceImpl.java:62) ~[classes/:?]
+	at edy.epam.task5.service.impl.TextServiceImpl.DeleteSentenceByWordSize(TextServiceImpl.java:18) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:104) [classes/:?]
+21-07-19 21:20.703 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sentence parser is not correct.
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:24) ~[classes/:?]
+	at edy.epam.task5.service.impl.TextServiceImpl.DeleteSentenceByWordSize(TextServiceImpl.java:62) ~[classes/:?]
+	at edy.epam.task5.service.impl.TextServiceImpl.DeleteSentenceByWordSize(TextServiceImpl.java:18) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:104) [classes/:?]
+21-07-19 21:22.194 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sentence parser is not correct.
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:24) ~[classes/:?]
+	at edy.epam.task5.service.impl.TextServiceImpl.DeleteSentenceByWordSize(TextServiceImpl.java:62) ~[classes/:?]
+	at edy.epam.task5.service.impl.TextServiceImpl.DeleteSentenceByWordSize(TextServiceImpl.java:18) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:104) [classes/:?]
+21-07-19 21:23.307 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sentence parser is not correct.
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:24) ~[classes/:?]
+	at edy.epam.task5.service.impl.TextServiceImpl.DeleteSentenceByWordSize(TextServiceImpl.java:62) ~[classes/:?]
+	at edy.epam.task5.service.impl.TextServiceImpl.DeleteSentenceByWordSize(TextServiceImpl.java:18) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:104) [classes/:?]
+21-07-19 21:23.534 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in sentence parser is not correct.
+	at edy.epam.task5.parser.SentenceParser.parse(SentenceParser.java:24) ~[classes/:?]
+	at edy.epam.task5.service.impl.TextServiceImpl.DeleteSentenceByWordSize(TextServiceImpl.java:63) ~[classes/:?]
+	at edy.epam.task5.service.impl.TextServiceImpl.DeleteSentenceByWordSize(TextServiceImpl.java:18) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:104) [classes/:?]
+21-07-19 22:23.848 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in DeleteSentenceByWordSize function is not correct.
+	at edy.epam.task5.service.impl.TextServiceImpl.DeleteSentenceByWordSize(TextServiceImpl.java:50) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:104) [classes/:?]
+21-07-19 22:23.193 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in paragraph parser is not correct.
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:19) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:105) [classes/:?]
+21-07-19 22:24.504 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in paragraph parser is not correct.
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:19) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:105) [classes/:?]
+21-07-19 22:25.141 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in paragraph parser is not correct.
+	at edy.epam.task5.parser.ParagraphParser.parse(ParagraphParser.java:19) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:105) [classes/:?]
+21-07-20 17:20.163 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countOfVowelsAndConsonants function is not correct.
+21-07-20 17:20.169 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in countOfVowelsAndConsonants function is not correct.
+	at edy.epam.task5.service.impl.TextServiceImpl.countOfVowelsAndConsonants(TextServiceImpl.java:137) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:109) [classes/:?]
+21-07-20 17:21.722 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in deleteSentenceByWordSize function is not correct.
+21-07-20 17:21.738 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in deleteSentenceByWordSize function is not correct.
+	at edy.epam.task5.service.impl.TextServiceImpl.deleteSentenceByWordCount(TextServiceImpl.java:94) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:114) [classes/:?]
+21-07-20 17:21.443 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in deleteSentenceByWordSize function is not correct.
+21-07-20 17:21.458 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in deleteSentenceByWordSize function is not correct.
+	at edy.epam.task5.service.impl.TextServiceImpl.deleteSentenceByWordCount(TextServiceImpl.java:94) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:115) [classes/:?]
+21-07-20 17:23.304 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in deleteSentenceByWordSize function is not correct.
+21-07-20 17:23.304 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in deleteSentenceByWordSize function is not correct.
+	at edy.epam.task5.service.impl.TextServiceImpl.deleteSentenceByWordCount(TextServiceImpl.java:94) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:115) [classes/:?]
