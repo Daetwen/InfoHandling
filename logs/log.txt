@@ -382,3 +382,8 @@ edy.epam.task5.exception.InfoHandlingException: Input data in deleteSentenceByWo
 edy.epam.task5.exception.InfoHandlingException: Input data in deleteSentenceByWordSize function is not correct.
 	at edy.epam.task5.service.impl.TextServiceImpl.deleteSentenceByWordCount(TextServiceImpl.java:94) ~[classes/:?]
 	at edy.epam.task5._main.Main.main(Main.java:115) [classes/:?]
+21-07-21 19:28.021 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countEqualWords function is not correct.
+21-07-21 19:28.025 [main] ERROR edy.epam.task5._main.Main - Some error: 
+edy.epam.task5.exception.InfoHandlingException: Input data in countEqualWords function is not correct.
+	at edy.epam.task5.service.impl.TextServiceImpl.countEqualWords(TextServiceImpl.java:114) ~[classes/:?]
+	at edy.epam.task5._main.Main.main(Main.java:117) [classes/:?]

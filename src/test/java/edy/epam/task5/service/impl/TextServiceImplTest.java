@@ -14,7 +14,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class TextServiceImplTest {
 
@@ -105,16 +107,6 @@ public class TextServiceImplTest {
         };
     }
 
-    @DataProvider(name = "countOfConsonants-provider")
-    public Object[][] countOfConsonantsProvider() {
-        String text1 = "    Bc febd java web development.";
-        String text2 = "    Bc febd (7^5|1&2<<(2|5>>2&71))|1200 java web  hello development.";
-        return new Object[][] {
-                {16, text1},
-                {19, text2}
-        };
-    }
-
     @Test(dataProvider = "countOfVowels-provider")
     public void countOfVowelsPositiveTest(int expected, String textForWork)
             throws InfoHandlingException {
@@ -125,6 +117,16 @@ public class TextServiceImplTest {
         Assert.assertEquals(actual, expected);
     }
 
+    @DataProvider(name = "countOfConsonants-provider")
+    public Object[][] countOfConsonantsProvider() {
+        String text1 = "    Bc febd java web development.";
+        String text2 = "    Bc febd (7^5|1&2<<(2|5>>2&71))|1200 java web  hello development.";
+        return new Object[][] {
+                {16, text1},
+                {19, text2}
+        };
+    }
+
     @Test(dataProvider = "countOfConsonants-provider")
     public void countOfConsonantsPositiveTest(int expected, String textForWork)
             throws InfoHandlingException {
@@ -132,6 +134,34 @@ public class TextServiceImplTest {
         ElementTextParser parser = new LexemeParser();
         parser.parse(composite, textForWork);
         long actual = textService.countOfVowelsAndConsonants(composite).get(1);
+        Assert.assertEquals(actual, expected);
+    }
+
+    @DataProvider(name = "countEqualWords-provider")
+    public Object[][] countEqualWordsProvider() {
+        String text1 = "    Hello world, hello hello world World WORLD.";
+        String text2 = "    Test sentence. Some words. Some test words words word.";
+        Map<String, Integer> map1 = new HashMap<>();
+        map1.put("hello", 3);
+        map1.put("world", 4);
+        Map<String, Integer> map2 = new HashMap<>();
+        map2.put("test", 2);
+        map2.put("sentence", 1);
+        map2.put("some", 2);
+        map2.put("words", 3);
+        map2.put("word", 1);
+        return new Object[][] {
+                {map1, text1},
+                {map2, text2}
+        };
+    }
+
+    @Test(dataProvider = "countEqualWords-provider")
+    public void countEqualWordsPositiveTest(Map<String, Integer> expected, String textForWork)
+            throws InfoHandlingException {
+        TextComposite composite = new TextComposite(TypeOfElement.TEXT);
+        parser.parse(composite, textForWork);
+        Map<String, Integer> actual = textService.countEqualWords(composite);
         Assert.assertEquals(actual, expected);
     }
 }

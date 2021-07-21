@@ -9,8 +9,7 @@ import edy.epam.task5.service.TextService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class TextServiceImpl implements TextService {
@@ -96,15 +95,28 @@ public class TextServiceImpl implements TextService {
         return resultText;
     }
 
-    public int countEqualWords(TextElement textElement)
+    public Map<String, Integer> countEqualWords(TextElement textElement)
             throws InfoHandlingException {
-        int count = 0;
+        Map<String, Integer> map = new HashMap<>();
         if (textElement.getType() == TypeOfElement.TEXT) {
+            List<TextElement> words = textElement.getChildren()
+                    .stream()
+                    .flatMap(paragraph -> paragraph.getChildren().stream())
+                    .flatMap(sentence -> sentence.getChildren().stream())
+                    .flatMap(lexeme -> lexeme.getChildren().stream())
+                    .collect(Collectors.toList());
+            for (TextElement word : words) {
+                if (word.getType() == TypeOfElement.WORD) {
+                    String key = word.toString().toLowerCase();
+                    map.putIfAbsent(key, 0);
+                    map.computeIfPresent(key, (keyLocal, value) -> (++value));
+                }
+            }
         } else {
             logger.error("Input data in countEqualWords function is not correct.");
             throw new InfoHandlingException("Input data in countEqualWords function is not correct.");
         }
-        return count;
+        return map;
     }
 
     public List<Long> countOfVowelsAndConsonants(TextElement textElement)
