@@ -9,10 +9,10 @@ import java.util.List;
 public class Symbol implements TextElement {
 
     private static final Logger logger = LogManager.getLogger();
-    private String element;
+    private char element;
     private TypeOfElement typeOfElement;
 
-    public Symbol(String element, TypeOfElement typeOfElement) {
+    public Symbol(char element, TypeOfElement typeOfElement) {
         this.element = element;
         this.typeOfElement = typeOfElement;
     }
@@ -64,7 +64,7 @@ public class Symbol implements TextElement {
         int prime = 31;
         int result = 1;
 
-        result = result * prime + element.hashCode();
+        result = result * prime + (int)element;
         result = result * prime + typeOfElement.hashCode();
 
         return result;
@@ -72,6 +72,6 @@ public class Symbol implements TextElement {
 
     @Override
     public String toString() {
-        return element;
+        return Character.toString(element);
     }
 }

@@ -31,8 +31,9 @@ public class WordParser implements ElementTextParser {
         }
         while (matcherPunctuation.find()) {
             String punctuation = matcherPunctuation.group();
-            Symbol symbol = new Symbol(punctuation, TypeOfElement.PUNCTUATION);
-            textElement.add(symbol);
+            TextComposite punctuationElement = new TextComposite(TypeOfElement.PUNCTUATION);
+            textElement.add(punctuationElement);
+            parser.parse(punctuationElement, punctuation);
         }
     }
 }

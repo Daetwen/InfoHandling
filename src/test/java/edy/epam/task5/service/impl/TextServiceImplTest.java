@@ -56,6 +56,14 @@ public class TextServiceImplTest {
         Assert.assertEquals(actual, expected);
     }
 
+    @Test(dataProvider = "sortParagraphs-provider")
+    public void sortParagraphsNegativeTest(String expected, String textForWork)
+            throws InfoHandlingException {
+        TextComposite composite = new TextComposite(TypeOfElement.SENTENCE);
+        parser.parse(composite, textForWork);
+        Assert.assertThrows(InfoHandlingException.class, () -> textService.sortParagraphs(composite));
+    }
+
     @DataProvider(name = "findSentencesWithLongestWord-provider")
     public Object[][] findSentencesWithLongestWordProvider() {
         String sentence1 = "It was popularised in the 5|(1&2&(3|(4&(1^5|6&47)|3)|(~89&4|(42&7)))|1) with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
@@ -74,6 +82,15 @@ public class TextServiceImplTest {
         List<TextElement> result = textService.findSentencesWithLongestWord(composite);
         String actual = result.get(0).toString();
         Assert.assertEquals(actual, expected);
+    }
+
+    @Test(dataProvider = "findSentencesWithLongestWord-provider")
+    public void findSentencesWithLongestWordNegativeTest(String expected, String textForWork)
+            throws InfoHandlingException {
+        TextComposite composite = new TextComposite(TypeOfElement.PARAGRAPH);
+        parser.parse(composite, textForWork);
+        Assert.assertThrows(InfoHandlingException.class,
+                () -> textService.findSentencesWithLongestWord(composite));
     }
 
     @DataProvider(name = "deleteSentenceByWordCount-provider")
@@ -97,6 +114,15 @@ public class TextServiceImplTest {
         Assert.assertEquals(actual, expected);
     }
 
+    @Test(dataProvider = "deleteSentenceByWordCount-provider")
+    public void deleteSentenceByWordCountNegativeTest(String expected, String textForWork, int minLength)
+            throws InfoHandlingException {
+        TextComposite composite = new TextComposite(TypeOfElement.PARAGRAPH);
+        parser.parse(composite, textForWork);
+        Assert.assertThrows(InfoHandlingException.class,
+                () -> textService.deleteSentenceByWordCount(composite, minLength));
+    }
+
     @DataProvider(name = "countOfVowels-provider")
     public Object[][] countOfVowelsProvider() {
         String text1 = "    Bc febd java web development.";
@@ -117,6 +143,15 @@ public class TextServiceImplTest {
         Assert.assertEquals(actual, expected);
     }
 
+    @Test(dataProvider = "countOfVowels-provider")
+    public void countOfVowelsNegativeTest(int expected, String textForWork)
+            throws InfoHandlingException {
+        TextComposite composite = new TextComposite(TypeOfElement.PARAGRAPH);
+        parser.parse(composite, textForWork);
+        Assert.assertThrows(InfoHandlingException.class,
+                () -> textService.countOfVowelsAndConsonants(composite));
+    }
+
     @DataProvider(name = "countOfConsonants-provider")
     public Object[][] countOfConsonantsProvider() {
         String text1 = "    Bc febd java web development.";
@@ -135,6 +170,15 @@ public class TextServiceImplTest {
         parser.parse(composite, textForWork);
         long actual = textService.countOfVowelsAndConsonants(composite).get(1);
         Assert.assertEquals(actual, expected);
+    }
+
+    @Test(dataProvider = "countOfConsonants-provider")
+    public void countOfConsonantsNegativeTest(int expected, String textForWork)
+            throws InfoHandlingException {
+        TextComposite composite = new TextComposite(TypeOfElement.PARAGRAPH);
+        parser.parse(composite, textForWork);
+        Assert.assertThrows(InfoHandlingException.class,
+                () -> textService.countOfVowelsAndConsonants(composite));
     }
 
     @DataProvider(name = "countEqualWords-provider")
@@ -163,5 +207,14 @@ public class TextServiceImplTest {
         parser.parse(composite, textForWork);
         Map<String, Integer> actual = textService.countEqualWords(composite);
         Assert.assertEquals(actual, expected);
+    }
+
+    @Test(dataProvider = "countEqualWords-provider")
+    public void countEqualWordsNegativeTest(Map<String, Integer> expected, String textForWork)
+            throws InfoHandlingException {
+        TextComposite composite = new TextComposite(TypeOfElement.PARAGRAPH);
+        parser.parse(composite, textForWork);
+        Assert.assertThrows(InfoHandlingException.class,
+                () -> textService.countEqualWords(composite));
     }
 }

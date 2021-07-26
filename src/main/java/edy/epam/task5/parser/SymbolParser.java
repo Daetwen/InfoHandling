@@ -15,7 +15,7 @@ public class SymbolParser implements ElementTextParser {
         }
         String[] symbols = data.split(SYMBOL_REGEX);
         for (var symbolValue : symbols) {
-            Symbol symbol = new Symbol(symbolValue, TypeOfElement.SYMBOL);
+            Symbol symbol = new Symbol(symbolValue.charAt(0), TypeOfElement.SYMBOL);
             textElement.add(symbol);
         }
     }

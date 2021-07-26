@@ -387,3 +387,45 @@ edy.epam.task5.exception.InfoHandlingException: Input data in deleteSentenceByWo
 edy.epam.task5.exception.InfoHandlingException: Input data in countEqualWords function is not correct.
 	at edy.epam.task5.service.impl.TextServiceImpl.countEqualWords(TextServiceImpl.java:114) ~[classes/:?]
 	at edy.epam.task5._main.Main.main(Main.java:117) [classes/:?]
+21-07-23 20:38.254 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in findSentencesWithLongestWord function is not correct.
+21-07-23 20:38.301 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in findSentencesWithLongestWord function is not correct.
+21-07-23 20:43.706 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countEqualWords function is not correct.
+21-07-23 20:43.831 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countEqualWords function is not correct.
+21-07-23 20:43.850 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countOfVowelsAndConsonants function is not correct.
+21-07-23 20:43.854 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countOfVowelsAndConsonants function is not correct.
+21-07-23 20:43.862 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countOfVowelsAndConsonants function is not correct.
+21-07-23 20:43.862 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countOfVowelsAndConsonants function is not correct.
+21-07-23 20:43.886 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in deleteSentenceByWordSize function is not correct.
+21-07-23 20:43.891 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in deleteSentenceByWordSize function is not correct.
+21-07-23 20:43.911 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in findSentencesWithLongestWord function is not correct.
+21-07-23 20:43.926 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in findSentencesWithLongestWord function is not correct.
+21-07-26 17:49.265 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countEqualWords function is not correct.
+21-07-26 17:49.273 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countEqualWords function is not correct.
+21-07-26 17:49.284 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countOfVowelsAndConsonants function is not correct.
+21-07-26 17:49.286 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countOfVowelsAndConsonants function is not correct.
+21-07-26 17:49.294 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countOfVowelsAndConsonants function is not correct.
+21-07-26 17:49.297 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countOfVowelsAndConsonants function is not correct.
+21-07-26 17:49.307 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in deleteSentenceByWordSize function is not correct.
+21-07-26 17:49.309 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in deleteSentenceByWordSize function is not correct.
+21-07-26 17:49.328 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in findSentencesWithLongestWord function is not correct.
+21-07-26 17:49.338 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in findSentencesWithLongestWord function is not correct.
+21-07-26 17:53.008 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countEqualWords function is not correct.
+21-07-26 17:53.016 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countEqualWords function is not correct.
+21-07-26 17:53.029 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countOfVowelsAndConsonants function is not correct.
+21-07-26 17:53.032 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countOfVowelsAndConsonants function is not correct.
+21-07-26 17:53.040 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countOfVowelsAndConsonants function is not correct.
+21-07-26 17:53.043 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countOfVowelsAndConsonants function is not correct.
+21-07-26 17:53.058 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in deleteSentenceByWordSize function is not correct.
+21-07-26 17:53.064 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in deleteSentenceByWordSize function is not correct.
+21-07-26 17:53.082 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in findSentencesWithLongestWord function is not correct.
+21-07-26 17:53.091 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in findSentencesWithLongestWord function is not correct.
+21-07-26 18:08.131 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countEqualWords function is not correct.
+21-07-26 18:08.138 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countEqualWords function is not correct.
+21-07-26 18:08.149 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countOfVowelsAndConsonants function is not correct.
+21-07-26 18:08.151 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countOfVowelsAndConsonants function is not correct.
+21-07-26 18:08.158 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countOfVowelsAndConsonants function is not correct.
+21-07-26 18:08.160 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in countOfVowelsAndConsonants function is not correct.
+21-07-26 18:08.170 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in deleteSentenceByWordSize function is not correct.
+21-07-26 18:08.174 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in deleteSentenceByWordSize function is not correct.
+21-07-26 18:08.194 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in findSentencesWithLongestWord function is not correct.
+21-07-26 18:08.208 [main] ERROR epam.task5.service.impl.TextServiceImpl - Input data in findSentencesWithLongestWord function is not correct.
